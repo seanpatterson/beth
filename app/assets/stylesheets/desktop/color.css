@@ -1,0 +1,15 @@
+.success, .error {
+  box-shadow: 5px 5px 5px #ccc;
+}
+.success {
+  background-color: rgba(123, 179, 50, .95);
+  color: #fff;
+}
+.error {
+  background-color: rgba(255, 0, 0, .95);
+  color: #fff;
+}
+.row-fluid img { 
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #333;
+}

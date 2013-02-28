@@ -1,0 +1,23 @@
+<div class="navbar navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid right">
+      <%= link_to root_url, { :class => 'brand' } do %>        
+        <%= image_tag 'http://placekitten.com/64/64' %>
+        <strong>Beth</strong> Patterson
+      <% end %>
+      <!-- right-aligned sub-nav at the top -->
+      <div class="nav-collapse collapse">
+        <p class="navbar-text pull-right">
+          <%= link_to 'Home', root_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'Paintings', paintings_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'Print Making', prints_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'Jewelry', jewelry_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'Biography', biography_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'News and Upcoming Shows', news_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'Contact Info', contact_url,  { :class => 'navbar-link' } %> |
+          <%= link_to 'Store', store_url,  { :class => 'navbar-link' } %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

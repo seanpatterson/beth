@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <% if flash[:success_message] %>
+        <div class="success">
+          <p class='lead'>Success!</p>
+          <%= flash[:success_message] %>
+        </div>
+        <script>
+          $('.success').fadeIn(500).delay(4000).fadeOut(500);
+        </script>
+      <% end %>
+
+      <% if flash[:error_message] %>
+        <div class="error">
+          <p class='lead'>There were problems completing your request:</p>
+          <%= flash[:error_message] %>
+        </div>
+        <script>
+          $('.error').fadeIn(500).delay(4000).fadeOut(500);
+        </script>
+      <% end %>
+    </div>
+  </div>
+</div>

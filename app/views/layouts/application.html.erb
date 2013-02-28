@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= @title || "Beth Patterson" %></title>
+    <meta charset="utf-8"/>
+    <%= stylesheet_link_tag    "application", :media => "screen" %>
+    <%= stylesheet_link_tag    "desktop",     :media => "screen" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <%= render :partial => '/layouts/partials/nav' %>
+      <%= render :partial => '/layouts/partials/alerts' %>
+      <%= yield %>
+      <%= render :partial => '/layouts/partials/footer' %>
+    </div>  
+  </body>
+</html>
