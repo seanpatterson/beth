@@ -1,0 +1,21 @@
+<div id="painting-slideshow" class="carousel slide">
+  <div class="carousel-inner">
+    <% @images.each do |image| %>
+      <% if image[:index] == 1 %>
+        <div class="item active">
+      <% else %>
+        <div class="item">
+      <% end %>
+        <img src=<%= image[:img] %> alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Sweet Painting, Bro</h1>
+            <p class="lead">I do this shit all the time. You should pay me for it.</p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <a class="left carousel-control" href="#painting-slideshow" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#painting-slideshow" data-slide="next">&rsaquo;</a>
+</div>

@@ -13,3 +13,7 @@
   border-radius: 5px;
   box-shadow: 5px 5px 5px #333;
 }
+.carousel-caption h1,
+.carousel-caption .lead {
+  color: #fff;
+}
