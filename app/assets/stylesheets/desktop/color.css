@@ -17,3 +17,9 @@
 .carousel-caption .lead {
   color: #fff;
 }
+.sellable p {
+  color: #888;
+}
+.pricing p {
+  color: #ccc;
+}

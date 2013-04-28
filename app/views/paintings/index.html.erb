@@ -1,48 +1,6 @@
 <h1>Paintings</h1>
-
-<style>
-  .paintings {
-    margin-top: 30px;
-  }
-
-  .painting {
-    border: 1px solid #ccc;
-    padding: 10px 10px 140px 10px;
-    margin-bottom: 60px;
-    box-shadow: 5px 5px 5px #aaa;
-  }
-
-  .painting img {
-    border-radius: 0;
-    box-shadow: none;
-  }
-  .painting h3, p {
-    text-align: right;
-  }
-
-  .painting p {
-    color: #888;
-  }
-
-  .summary h3 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .summary p {
-    margin-top: -10px;
-    padding-top: 0;
-  }
-  .pricing p {
-    color: #ccc;
-    font-size: .9em;
-    font-weight: bold;
-    margin-top: 130px;
-    margin-bottom: -130px;
-  }
-</style>
-
 <div class="paintings">
 <% @images.each_with_index do |image, idx| %>
-  <%= render :partial => 'paintings/partials/painting', :locals => { :index => idx, :src => image[:img], :price => image[:price], :name => image[:name], :subtext => image[:subtext] } %>
+  <%= render :partial => 'components/sellable', :locals => { :index => idx, :src => image[:img], :price => image[:price], :name => image[:name], :subtext => image[:subtext] } %>
 <% end %>
 </div>
