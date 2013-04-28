@@ -7,6 +7,8 @@ application.js: application-1be76cfdb7ef7f7d5903576e8f6ed209.js
 application/index.js: application-1be76cfdb7ef7f7d5903576e8f6ed209.js
 application.css: application-5775006528f6b203a2b7ab7f32fe790f.css
 application/index.css: application-5775006528f6b203a2b7ab7f32fe790f.css
+desktop.css: desktop-d42b394bcc8648817b60173aa9f3c79e.css
+desktop/index.css: desktop-d42b394bcc8648817b60173aa9f3c79e.css
 FontAwesome.otf: FontAwesome-468f83b63df32064983141584a19ff17.otf
 FontAwesome/index.otf: FontAwesome-468f83b63df32064983141584a19ff17.otf
 fontawesome-webfont.eot: fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot
