@@ -1,5 +1,5 @@
 <h1>Paintings</h1>
-<div class="paintings">
+<div class="sellables">
 <% @images.each_with_index do |image, idx| %>
   <%= render :partial => 'components/sellable', :locals => { :index => idx, :src => image[:img], :price => image[:price], :name => image[:name], :subtext => image[:subtext] } %>
 <% end %>
