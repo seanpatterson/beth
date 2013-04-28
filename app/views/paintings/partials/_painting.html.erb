@@ -1,0 +1,24 @@
+<% 
+  @start_row = index % 3 == 0
+  @close_row = (index + 1) % 3 == 0
+%>
+
+<% if @start_row %>
+  <div class="row">
+<% end %>
+
+<div class="span4 offset1 painting">
+  <img src=<%= src %> alt=""/>
+  <section class="summary">
+    <h3><%= name %></h3>
+    <p><em><%= subtext %></em></p>
+  </section>
+  
+  <section class="pricing">
+    <p>$<%= price %> USD</p>
+  </section>
+</div>
+
+<% if @close_row %>
+  </div>
+<% end %>
