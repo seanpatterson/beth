@@ -34,6 +34,8 @@ body {
 .sellable img {
   border-radius: 0;
   box-shadow: none;
+  width: 500px;
+  height: 350px;
 }
 .summary h3 {
   margin-bottom: 0;
@@ -46,4 +48,7 @@ body {
 .pricing p {
   margin-top: 130px;
   margin-bottom: -130px;
+}
+#calendar {
+  text-align: center;
 }
