@@ -1,5 +1,5 @@
 h1, h2, h3 { font-weight: 500 !important; }
-.sellable h3, p {
+.sellable h3, .sellable p {
   text-align: right;
 }
 .pricing p {
