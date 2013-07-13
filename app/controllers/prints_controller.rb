@@ -18,11 +18,11 @@ class PrintsController < ApplicationController
       { :name => 'Blue Invasion', :subtext => 'Chine Colle Etching', :index => 1, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_2409.jpg', :price => '125' },
       { :name => 'Aged Tentacle', :subtext => 'Etching', :index => 2, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_2414.jpg', :price => '75' },
       { :name => 'Lost', :subtext => 'Chine Colle Monotype', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_2518.JPG', :price => '75' },
-      { :name => 'Oodapus', :subtext => 'Chine Colle Monotype', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_2519.JPG', :price => '100' },   
+      { :name => 'Poikilotherms', :subtext => 'Chine Colle Monotype', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_2519.JPG', :price => '175' },   
       { :name => 'Serendipity', :subtext => 'Monotype collage', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5578.jpg', :price => '125' },
-      { :name => 'Damask', :subtext => 'Monotype Chine Colle collage', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5579.JPG', :price => '125' },
-      { :name => 'Bouquet', :subtext => 'Monoprint Chine Colle collage', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5582.jpg', :price => '125' },   
-      { :name => 'Floating By', :subtext => 'Monotype Etching Chine Colle', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5583.JPG', :price => '100' },
+      { :name => 'Hapalochlaena Maculosa', :subtext => 'Monotype Chine Colle collage', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5579.JPG', :price => '175' },
+      { :name => 'Dismantle the Aquariums', :subtext => 'Monoprint Chine Colle collage', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5582.jpg', :price => '175' },   
+      { :name => 'Wunderpus Photogenicus', :subtext => 'Monotype Etching Chine Colle', :index => 3, :img => 'https://s3.amazonaws.com/bethpattersonart/Printmaking/IMG_5583.JPG', :price => '175' },
      
     ]
   end
